@@ -20,6 +20,12 @@
       <command>
         <exec>uptime</exec>
       </command>
+      <command>
+        <exec>who</exec>
+      </command>
+      <command>
+        <exec>hostname</exec>
+      </command>
     </sequence>
     <uuid>4e82d5e4-bbfd-4f93-9108-f97fee973dba</uuid>
   </job>
