@@ -1,0 +1,16 @@
+<joblist>
+  <job>
+    <description></description>
+    <executionEnabled>true</executionEnabled>
+    <id>827cfd35-caad-4f8e-a2b0-be203d08e7a5</id>
+    <loglevel>INFO</loglevel>
+    <name>runuptime</name>
+    <scheduleEnabled>true</scheduleEnabled>
+    <sequence keepgoing='false' strategy='node-first'>
+      <command>
+        <exec>uptime</exec>
+      </command>
+    </sequence>
+    <uuid>827cfd35-caad-4f8e-a2b0-be203d08e7a5</uuid>
+  </job>
+</joblist>
