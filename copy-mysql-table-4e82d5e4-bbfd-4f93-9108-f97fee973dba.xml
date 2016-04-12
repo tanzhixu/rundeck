@@ -1,27 +1,14 @@
 <joblist>
   <job>
     <description></description>
-    <dispatch>
-      <excludePrecedence>true</excludePrecedence>
-      <keepgoing>false</keepgoing>
-      <rankOrder>ascending</rankOrder>
-      <threadcount>1</threadcount>
-    </dispatch>
     <executionEnabled>true</executionEnabled>
     <id>4e82d5e4-bbfd-4f93-9108-f97fee973dba</id>
     <loglevel>INFO</loglevel>
     <name>copy-mysql-table</name>
-    <nodefilters>
-      <filter>hostname: 10.1.15.61:6123</filter>
-    </nodefilters>
-    <nodesSelectedByDefault>true</nodesSelectedByDefault>
     <scheduleEnabled>true</scheduleEnabled>
     <sequence keepgoing='false' strategy='node-first'>
       <command>
         <exec>uptime</exec>
-      </command>
-      <command>
-        <exec>who</exec>
       </command>
     </sequence>
     <uuid>4e82d5e4-bbfd-4f93-9108-f97fee973dba</uuid>
